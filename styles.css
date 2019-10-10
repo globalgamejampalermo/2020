@@ -3,3 +3,21 @@
   margin:0px;
   padding:0px;
 }
+
+.monitor
+{
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
+}
+
+.gradient
+{
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
+}
