@@ -4,9 +4,22 @@
   padding:0px;
 }
 
+html{
+    min-height: 100% !important;
+    height: 100% !important;
+}
+.nogutters {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+.nopadding{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
 .monitor
 {
-  height: 100vh;
+  height: 100vh !important;
   position: relative;
   overflow: hidden;
   padding: 0px;
@@ -15,9 +28,20 @@
 
 .gradient
 {
-  height: 100vh;
+  height: 100vh !important;
   position: relative;
   overflow: hidden;
   padding: 0px;
   margin: 0px;
 }
+
+.magenta
+{
+  border-width: 20px;
+  border-top-style: none;
+  border-right-style: solid;
+  border-bottom-style: none;
+  border-left-style: none;
+  border-color:red;
+}
+
