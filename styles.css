@@ -35,13 +35,9 @@ html{
   margin: 0px;
 }
 
-.magenta
+.magentaline
 {
   border-width: 20px;
-  border-top-style: none;
-  border-right-style: solid;
-  border-bottom-style: none;
-  border-left-style: none;
-  border-color:red;
+
 }
 
