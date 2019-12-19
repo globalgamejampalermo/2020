@@ -68,8 +68,12 @@ html{
   border-left-style: solid;
   border-color:#E3007A;
 }
-.mgtop5{margin-top:5%;}
-.mgtop10{margin-top:10%;}
+.mgtop5{margin-top:5% !important;}
+.mgtop10{margin-top:10% !important;}
+@media only screen and (max-width: 768px) {
+.mgtop5{margin-top:10% !important;}
+.mgtop10{margin-top:20% !important;}
+}
 
 .txtmagenta{color:#E3007A;}
 .txtwhite{color:#FFF;}
@@ -240,7 +244,7 @@ setInterval(updateGradient,10);
   <div style="height:100% !important;" class="row justify-content-center align-items-center">
     <div class="col-10 col-md-8" align="center">
       <img style="width:80%" class="img-fluid jello-horizontal" src="https://raw.githubusercontent.com/globalgamejampalermo/2020/master/images/ggjlogoW.png">
-      <div class="row justify-content-center align-items-end">
+      <div class="row mgtop10 justify-content-center align-items-end">
     <div class="col-12 col-md-6" align="center">
       <a href=""><h1 class="txt02 txtwhite">Partecipa</h1></a>
     </div>
@@ -254,8 +258,16 @@ setInterval(updateGradient,10);
 
 <div class="monitor container-fluid">
   <div style="height:100% !important;" class="row justify-content-center align-items-center">
-    <div class="col-10 col-md-8" align="center">
-    	<p>La Global Game Jam è un evento annuale sullo sviluppo di videogiochi realizzato in contemporanea in tutto il mondo</p>
+    <div class="col-10 col-md-8">
+		<div class="row">
+		<div class="col-12 col-md-6">
+		La Global Game Jam® è un evento annuale sullo sviluppo di videogiochi realizzato in contemporanea mondiale presso centinaia di sedi accreditate. È la più grande game jam al mondo dove appassionati neofiti sullo sviluppo di videogiochi collabboreranno per realizzare un gioco o videogioco in 48 ore. Quest'anno per la terza volta sarà anche a Palermo.
+		<br><br>
+		Realizza un videogioco o un gioco da tavolo o di carte in 48 ore insieme ad altri appassionati come te. Che tu sia un programmatore, graphic artist, disegnatore, game designer, o semplicemente ti piacciono i giochi e vuoi metterti alla prova, vieni alla Global Game Jam® insieme ad altri ragazzi e ragazze creare il gioco dei tuoi sogni, scoprendo nuove abilità e amicizie. La Global Game Jam® è innovazione, sperimentazione e collaborazione.
+		</div>
+		<div class="col-12 col-md-6">
+		</div>
+	</div>
     </div>
   </div>
 </div>
@@ -263,7 +275,7 @@ setInterval(updateGradient,10);
 <div class="monitormagenta container-fluid">
   <div style="height:100% !important;" class="row justify-content-center align-items-center">
     <div class="col-10 col-md-8">
-		<h1 class="txt00 txtwhite mgtop10">PARTECIPA</h1>
+		<h1 class="txt00 txtwhite">PARTECIPA</h1>
 		<div class="row mgtop5">
 		<div class="col-12 col-md-6">
 		<a href=""><h1 class="txt03 txtwhite">> JAMMER</h1></a><br>
@@ -272,12 +284,85 @@ setInterval(updateGradient,10);
 		<a href=""><h1 class="txt03 txtwhite">> GGJ</h1></a><br>
 		</div>
 		<div class="col-12 col-md-6">
-			E' un'occasione unica per riunire persone con la stessa passione così da accettare la sfida al massimo delle proprie capacità . Noi forniamo un tema principale ed i partecipanti hanno 48 ore per creare un gioco. La nostra speranza sarebbe vedere dei prototipi di gioco crescere anche dopo la Global Game Jam. In passato, infatti, molti titoli sono stati pienamente realizzati dopo la Jam. Tutti i progetti sono protetti da una licenza Creative Commons. Incoraggiamo le persone a mettere in gioco le loro idee e tutto sè stessi.
+			Partecipare alla jam è gratuito e quest'anno abbiamo organizzato vari talk durante le varie giornate per parlare, discutere e informarsi sull'ambiente videoludico. Il tutto sarà ospitato da CreZiPlus ai Cantieri della Zisa di Palermo. Vieni a trovarci e mettiti alla prova sviluppando un videogioco o gioco in 48 ore e incontra altri appassionati come te.
 		</div>
 	</div>
     </div>
   </div>
 </div>
+
+<div class="container-fluid">
+  <div style="height:100% !important;" class="row justify-content-center align-items-center">
+    <div class="col-10 col-md-8">
+		<h1 class="txt00 txtmagenta mgtop10">CALENDARIO</h1>
+			<div class="row mgtop10">
+        		<div class="col-12 col-md-6"><h1 class="txt01" style="line-height: 0pt;">Venerdì</h1><br><p style="line-height: 8pt;">31 Gennaio</p>
+        		</div>
+        		<div class="col-12 col-md-6 magentaborder">
+        		<b>13.00</b><br>
+        		Apertura porte<br><br>
+        		<b>15.00</b><br>
+        		<b class="txtmagenta">TALK</b> - Introduzione e orientamento<br>
+        		<i>Vincenzo Madonia</i><br><br>
+        		<b>15.30</b><br>
+        		<b class="txtmagenta">TALK</b> - Come sopravvivere ad una Jam<br>
+        		<i>Claudio Bozzotta & Francesco Corselli</i><br><br>
+        		<b>16.00</b><br>
+        		Annuncio tema e inizio Jam<br><br>
+        		<b>17.00</b><br>
+        		<b class="txtmagenta">TALK</b> - TBA<br>
+        		<i>TBA</i><br><br>
+        		<b>18.00</b><br>
+        		<b class="txtmagenta">TALK</b> - TBA<br>
+        		<i>TBA</i><br><br>
+        		<b>24.00</b><br>
+        		Chiusura notturna<br>
+        		</div>
+			</div>
+			<div class="row mgtop10">
+        		<div class="col-12 col-md-6"><h1 class="txt01" style="line-height: 0pt;">Sabato</h1><br><p style="line-height: 8pt;">1 Febbraio</p>
+        		</div>
+        		<div class="col-12 col-md-6 magentaborder">
+        		<b>8.00</b><br>
+        		Apertura porte<br><br>
+        		<b>16.00</b><br>
+        		<b class="txtmagenta">TALK</b> - TBA<br>
+        		<i>TBA</i><br><br>
+        		<b>17.00</b><br>
+        		<b class="txtmagenta">TALK</b> - TBA<br>
+        		<i>TBA</i><br><br>
+        		<b>18.00</b><br>
+        		<b class="txtmagenta">TALK</b> - TBA<br>
+        		<i>TBA</i><br><br>
+        		<b>24.00</b><br>
+        		Chiusura notturna<br>
+        		</div>
+			</div>
+			<div class="row mgtop10">
+        		<div class="col-12 col-md-6"><h1 class="txt01" style="line-height: 0pt;">Domenica</h1><br><p style="line-height: 8pt;">2 Febbraio</p>
+        		</div>
+        		<div class="col-12 col-md-6 magentaborder">
+        		<b>8.00</b><br>
+        		Apertura porte<br><br>
+        		<b>16.00</b><br>
+        		Fine Jam<br><br>
+        		<b>17.00</b><br>
+        		Talk di chiusura<br>
+        		</div>
+			</div>
+	</div>
+  </div>
+</div>
+
+<div class="monitor container-fluid mgtop5">
+  <div style="height:100% !important;" class="row justify-content-center align-items-center">
+    <div style="height:100% !important;" class="col-12">
+    <h1 style="position:absolute;left:10%;top:5%; line-height: 90%;" class="txt00 mgtop10">DOVE TROVARE<br>LA JAM</h1>	
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3138.908280128922!2d13.33533231515806!3d38.11906817969818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1319ef6a3cb8b52b%3A0x39596daba6ab4dd2!2sCre.Zi.%20Plus!5e0!3m2!1sit!2sit!4v1576723798017!5m2!1sit!2sit" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </div>
+  </div>
+</div>
+
 
 <div class=" container-fluid">
   <div class="row justify-content-center">
@@ -321,9 +406,17 @@ setInterval(updateGradient,10);
   	  </div>
   	  <div class="row mgtop5">
         <div class="col-12 col-md-6"><h1 class="txt04">Posso creare un gioco non-digitale?</h1></div>
-        <div class="col-12 col-md-6 magentaborder">Si! La GGJ supporta anche la creazione di giochi da tavolo, giochi di carte o altri tipi di giochi.</div>
+        <div class="col-12 col-md-6 magentaborder">Si. La GGJ supporta anche la creazione di giochi da tavolo, giochi di carte o altri tipi di giochi.</div>
   	  </div>
 
+    </div>
+  </div>
+</div>
+
+<div class="monitor container-fluid mgtop10 txtwhite" style="background-color:#222;">
+  <div style="height:100% !important;" class="row justify-content-center align-items-center">
+    <div class="col-12">
+    
     </div>
   </div>
 </div>
