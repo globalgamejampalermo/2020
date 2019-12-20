@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <title>Global Game Jam 2020 Palermo</title>
 <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,600,600i,700,700i&display=swap" rel="stylesheet">
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
  
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
@@ -13,6 +16,8 @@
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <style>
+
+
 	
 	
 	
@@ -79,6 +84,7 @@
 
 .txtmagenta{color:#E3007A;}
 .txtwhite{color:#FFF;}
+.txtblack{color:#000;}
 .txt00{font-size: 64pt; font-weight: 900;}
 .txt01{font-size: 42pt; font-weight: 900;}
 .txt02{font-size: 32pt; font-weight: 900;}
@@ -100,6 +106,7 @@
 .magentabg{background-color:#E3007A;}
 
 .buttonggj{color:#E3007A !important;background-color:#fff !important;}
+.buttonmagenta{color:#fff !important;background-color:#E3007A !important;}
 
 a:hover, txtwhite{text-decoration:underline; color:#fff;}
 
@@ -182,6 +189,7 @@ a:hover, txtwhite{text-decoration:underline; color:#fff;}
 
 
 
+
 </style>
   </head>
 
@@ -247,18 +255,11 @@ setInterval(updateGradient,10);
   </script>
 <body>
 
+
 <div class="gradient container-fluid">
   <div style="height:100% !important;" class="row justify-content-center align-items-center">
-    <div class="col-10 col-md-8" align="center">
-      <img style="width:80%" class="img-fluid jello-horizontal" src="https://raw.githubusercontent.com/globalgamejampalermo/2020/master/images/ggjlogoW.png">
-      <div class="row mgtop10 justify-content-center align-items-end">
-    <div class="col-12 col-md-6" align="center">
-      <a href=""><h1 class="txt02 txtwhite">Partecipa</h1></a>
-    </div>
-    <div class="col-12 col-md-6" align="center">
-      <a href=""><h1 class="txt02 txtwhite">Scopri</h1></a>
-    </div>
-  </div>
+    <div class="col-8 col-md-6" align="center">
+      <img class="img-fluid jello-horizontal" src="https://raw.githubusercontent.com/globalgamejampalermo/2020/master/images/ggjlogoW.png">
     </div>
   </div>
 </div>
@@ -266,29 +267,66 @@ setInterval(updateGradient,10);
 <div class="container-fluid">
   <div class="row containerpadd justify-content-center">
     <div class="col-10 col-md-8">
-		<div class="row">
-		<div class="col-12 col-md-6">
-		La Global Game Jam® è un evento annuale sullo sviluppo di videogiochi realizzato in contemporanea mondiale presso centinaia di sedi accreditate. È la più grande game jam al mondo dove appassionati neofiti sullo sviluppo di videogiochi collabboreranno per realizzare un gioco o videogioco in 48 ore. Quest'anno per la terza volta sarà anche a Palermo.
+		<p class="lead">La Global Game Jam® è un evento annuale sullo sviluppo di videogiochi realizzato in contemporanea mondiale. È la più grande game jam al mondo dove appassionati neofiti sullo sviluppo di videogiochi collaborano insieme per realizzare un gioco o videogioco in 48 ore. Quest'anno per la terza volta sarà anche a Palermo.</p>
 		<br><br>
-		Realizza un videogioco o un gioco da tavolo o di carte in 48 ore insieme ad altri appassionati come te. Che tu sia un programmatore, graphic artist, disegnatore, game designer, o semplicemente ti piacciono i giochi e vuoi metterti alla prova, vieni alla Global Game Jam® insieme ad altri ragazzi e ragazze creare il gioco dei tuoi sogni, scoprendo nuove abilità e amicizie. La Global Game Jam® è innovazione, sperimentazione e collaborazione.
-		</div>
-		<div class="col-12 col-md-6">
+		Che tu sia un programmatore, graphic artist, disegnatore, game designer, o semplicemente ti piacciono i giochi e vuoi metterti alla prova, vieni alla Global Game Jam® insieme ad altri ragazzi e ragazze creare il gioco dei tuoi sogni, scoprendo nuove abilità e amicizie.
 		</div>
 	</div>
     </div>
   </div>
 </div>
 
-<div class="container-fluid magentabg txtwhite">
+<div id="partecipa" class="container-fluid magentabg txtwhite">
   <div class="row containerpadd justify-content-center">
     <div class="col-10 col-md-8">
 		<h1 class="txt00">PARTECIPA</h1>
 		<div class="row mgtop5">
 		<div class="col-12 col-md-6">
-		<a href=""><h1 class="txt03 txtwhite">> JAMMER</h1></a><br>
-		<a href=""><h1 class="txt03 txtwhite">> AREA TALK</h1></a><br>
-		<a href=""><h1 class="txt03 txtwhite">> PRESS</h1></a><br>
-		<a href=""><h1 class="txt03 txtwhite">> GGJ</h1></a><br>
+
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-lg btn-block buttonggj" data-toggle="modal" data-target="#exampleModalCenter0"><b>JAMMER</b></button><br>
+<!-- Modal -->
+<div class="txtblack modal fade" id="exampleModalCenter0" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle"><b>Partecipa come Jammer</b></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+Procedendo acconsentirai a prenotare un posto per la Global Game Jam di Palermo. Ti ricordiamo che l'evento e gratuito e di prenotare il biglietto alla jam solo se interessato a partecipare attivamente come Jammer. Se vuoi solo fare da spettatore ti consigliamo di venirci a trovare durante i talk senza aver bisogno di prenotare.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn buttonmagenta">Prenota su Eventbrite</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-lg btn-block buttonggj" data-toggle="modal" data-target="#exampleModalCenter1"><b>AREA TALK</b></button><br>
+<!-- Modal -->
+<div class="txtblack modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle"><b>Assistere ai Talk</b></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+Per assistere ad i vari talk che si svolgeranno durante la Global Game Jam non avrai bisogno di prenotare alcun biglietto, sono aperti a tutti e di sotto trovarei gli orari, tema e speaker di ogni talk.
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
 		</div>
 		<div class="col-12 col-md-6">
 			Partecipare alla jam è gratuito e quest'anno abbiamo organizzato vari talk durante le varie giornate per parlare, discutere e informarsi sull'ambiente videoludico. Il tutto sarà ospitato da CreZiPlus ai Cantieri della Zisa di Palermo. Vieni a trovarci e mettiti alla prova sviluppando un videogioco o gioco in 48 ore e incontra altri appassionati come te.
